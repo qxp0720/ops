@@ -40,7 +40,7 @@ def wzfzx_nginx():
      number = (res['hits']['total'])
      v=number.get('value')
      if v>0:
-         msg='吴中分中心-nginx error number is %d' % (v)
+         msg='wz-nginx error number is %d' % (v)
          dingding('bzt',msg)
      else:
         pass
