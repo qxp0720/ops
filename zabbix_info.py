@@ -8,8 +8,8 @@ import xlsxwriter
  
 #zabbix数据库信息：
 zdbhost = '172.16.0.127'
-zdbuser = 'mon'
-zdbpass = '123qwe!'
+zdbuser = 'user'
+zdbpass = 'user'
 zdbport = 3306
 zdbname = 'zabbix'
  
